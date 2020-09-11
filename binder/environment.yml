@@ -1,0 +1,13 @@
+name: fspm2020
+channels:
+  - fredboudon
+  - conda-forge
+  - anaconda
+dependencies:
+  - openalea.lpy
+  - matplotlib
+  - pandas
+  - numpy
+  - pip
+  - pip:
+     - pgljupyter
