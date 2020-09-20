@@ -14,8 +14,10 @@ Axiom:
   nproduce @Tp(0,0,1) @Ts(ELASTICITY) @Gc
   produce M(0,0)
 
-derivation length: int(length/dl)+1
 production:
+derivation length:2
+decomposition:
+maximum depth: int(length/dl)+1
 
 M(l,order) :
   if l >= length : produce 
@@ -43,9 +45,10 @@ __lpy_code_version__ = 1.1
 
 def __initialiseContext__(context):
 	import openalea.plantgl.all as pgl
-	Color_1 = pgl.Material("Color_1" , ambient = (65,45,15) , diffuse = 1 , shininess = 0 , specular=(0,0,0))
+	Color_1 = pgl.Material("Color_1" , ambient = (65,45,15) , diffuse = 1 , shininess = 0 , )
 	Color_1.name = "Color_1"
 	context.turtle.setMaterial(1,Color_1)
+	context.options.setSelection('Axiom decomposition',1)
 	context.options.setSelection('Warning with Turtle inconsistency',0)
 	scalars = [('MAX_ORDER', 'Integer', 5, 0, 5), ('TROPISM', 'Bool', True), ('ELASTICITY', 'Float', 0.03, 0.0, 0.1, 3)]
 	context["__scalars__"] = scalars
