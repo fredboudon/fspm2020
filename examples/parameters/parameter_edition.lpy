@@ -1,0 +1,64 @@
+from openalea.plantgl.all import NurbsCurve
+
+internodelength = 2
+length = 14.9
+
+dl = 0.2
+phyllotaxy = 137.5
+
+def diameter(l):
+  return 0.01 + 0.2*(length-l)/length
+
+
+Axiom: 
+  nproduce @Tp(0,0,1) @Ts(ELASTICITY) @Gc
+  produce M(0,0)
+
+derivation length: int(length/dl)+1
+production:
+
+M(l,order) :
+  if l >= length : produce 
+  nproduce _(diameter(l)) F(dl)
+  newl = l + dl
+  if newl % internodelength < dl:
+    nproduce 
+    if order < MAX_ORDER:
+      nproduce [ RollL(phyllotaxy * (newl // internodelength)) &(60) @v F(dl)  
+      if not TROPISM:
+        nproduce SetGuide(branchpath,length-newl) 
+      nproduce M(newl,order+1) ]
+  elif length - newl < internodelength:
+     phi = (newl // internodelength) +  (newl-(length-internodelength))/dl
+     nproduce [RollL(phi  * phyllotaxy)^(80),(2)~l]
+  produce M(newl,order)
+
+interpretation:
+
+
+endlsystem
+###### INITIALISATION ######
+
+__lpy_code_version__ = 1.1
+
+def __initialiseContext__(context):
+	import openalea.plantgl.all as pgl
+	Color_1 = pgl.Material("Color_1" , ambient = (65,45,15) , diffuse = 1 , shininess = 0 , specular=(0,0,0))
+	Color_1.name = "Color_1"
+	context.turtle.setMaterial(1,Color_1)
+	context.options.setSelection('Warning with Turtle inconsistency',0)
+	scalars = [('MAX_ORDER', 'Integer', 5, 0, 5), ('TROPISM', 'Bool', True), ('ELASTICITY', 'Float', 0.03, 0.0, 0.1, 3)]
+	context["__scalars__"] = scalars
+	for s in scalars:
+		if not s[1] == "Category" : context[s[0]] = s[2]
+	import openalea.plantgl.all as pgl
+	branchpath = pgl.NurbsCurve2D(	
+	    ctrlPointList = pgl.Point3Array([(-0.558642, 0.0459491, 1),(-0.272827, -0.068981, 1),(-0.0295213, -0.153395, 1),(0.147239, -0.0700503, 1),(0.412901, 0.0201295, 1),(0.575777, 0.232735, 1)]) , 
+	    )
+	branchpath.name = "branchpath"
+	panel_0 = ({'name': 'Panel 1', 'active': True, 'visible': True},[('Curve2D',branchpath)])
+	parameterset = [panel_0,]
+	context["__functions__"] = []
+	context["__curves__"] = [('branchpath',branchpath),]
+	context["__parameterset__"] = parameterset
+	context["branchpath"] = branchpath

@@ -1,0 +1,95 @@
+{
+    "schema": "lpy",
+    "version": "1.1",
+    "options": {
+        "compilation": {},
+        "matching": {},
+        "processing": {},
+        "interaction": {}
+    },
+    "parameters": [
+        {
+            "name": "Panel",
+            "enabled": true,
+            "scalars": [
+                {
+                    "name": "MAX_ORDER",
+                    "type": "Integer",
+                    "value": 5,
+                    "min": 0,
+                    "max": 5,
+                    "step": 1
+                },
+                {
+                    "name": "TROPISM",
+                    "value": false
+                },
+                {
+                    "name": "ELASTICITY",
+                    "type": "Float",
+                    "value": 0.03,
+                    "min": 0,
+                    "max": 3,
+                    "step": 0.001
+                }
+            ],
+            "curves": [
+                {
+                    "name": "branchpath",
+                    "is_function": false,
+                    "type": "NurbsCurve2D",
+                    "points": [
+                        [
+                            -0.558642,
+                            0.0459491
+                        ],
+                        [
+                            -0.272827,
+                            -0.068981
+                        ],
+                        [
+                            -0.0295213,
+                            -0.153395
+                        ],
+                        [
+                            0.147239,
+                            -0.0700503
+                        ],
+                        [
+                            0.412901,
+                            0.0201295
+                        ],
+                        [
+                            0.575777,
+                            0.232735
+                        ]
+                    ]
+                }
+            ]
+        }
+    ],
+    "materials": [
+        {
+            "name": "Color_1",
+            "index": 1,
+            "ambient": [
+                65,
+                45,
+                15
+            ],
+            "diffuse": 3.0,
+            "specular": [
+                0,
+                0,
+                0
+            ],
+            "emission": [
+                0,
+                0,
+                0
+            ],
+            "transparency": 0.0,
+            "shininess": 0.0
+        }
+    ]
+}
