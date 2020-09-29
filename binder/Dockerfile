@@ -5,7 +5,7 @@ ARG NB_UID=1000
 
 COPY . /home/${NB_USER}
 USER root
-RUN conda install -y -c conda-forge matplotlib rpy2
+RUN conda install -y -c conda-forge pandas matplotlib rpy2
 RUN chown -R ${NB_UID} /home/${NB_USER}
 WORKDIR /home/${NB_USER}
 
