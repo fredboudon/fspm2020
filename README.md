@@ -21,3 +21,9 @@
 [render arbitrary plantgl shapes - spheres](https://mybinder.org/v2/gh/jvail/plantgl-jupyter/master?urlpath=lab/tree/examples/spheres.ipynb)
 
 [combine Lsystem and plantgl scene - simple_growth](https://mybinder.org/v2/gh/jvail/plantgl-jupyter/master?urlpath=lab/tree/examples/lpy/simple_growth/simple_growth.ipynb)
+
+### nbviewer example
+
+[nbviewer - champignon](https://nbviewer.jupyter.org/github/jvail/plantgl-jupyter/blob/master/examples/magic_champignon.ipynb)
+
+[nbviewer - spheres](https://nbviewer.jupyter.org/github/jvail/plantgl-jupyter/blob/master/examples/spheres.ipynb)
