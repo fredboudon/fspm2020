@@ -45,8 +45,10 @@ docker run --rm \
 * Parameter edition
 * General Interests
 
+[![Jupyter](https://jupyter.org/assets/nav_logo.svg)](https://jupyter.org/)
 
-#### Examples
+#### Examples [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fredboudon/fspm2020.git/master?filepath=examples)
+
 
 * Integration [![NBViewer](https://img.shields.io/badge/render-nbviewer-orange.svg)](https://nbviewer.jupyter.org/github/fredboudon/fspm2020/blob/master/examples/Integration.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fredboudon/fspm2020.git/master?filepath=examples%2FIntegration.ipynb)
 
@@ -84,7 +86,7 @@ jupyter lab .
 * The vmango model : https://github.com/fredboudon/vmango/tree/fspm2020
 * Mix of stochastic architectural development with mecanistic fruit growth models
 
-#### Examples
+#### Examples [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fredboudon/vmango.git/fspm2020?urlpath=lab/tree/notebooks)
 * vmango  [![NBViewer](https://img.shields.io/badge/render-nbviewer-orange.svg)](https://nbviewer.jupyter.org/github/fredboudon/vmango/blob/fspm2020/notebooks/vmango.ipynb) 
 * vmango ochard  [![NBViewer](https://img.shields.io/badge/render-nbviewer-orange.svg)](https://nbviewer.jupyter.org/github/fredboudon/vmango/blob/fspm2020/notebooks/vmango_2.ipynb)
 
