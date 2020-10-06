@@ -11,7 +11,7 @@ def diameter(l):
 
 
 Axiom: 
-  nproduce @Tp(0,0,1) @Ts(ELASTICITY) @Gc
+  nproduce @Tp(0,0,1) @Ts(ELASTICITY if TROPISM else 0) @Gc
   produce M(0,0)
 
 production:
