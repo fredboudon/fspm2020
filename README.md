@@ -3,7 +3,6 @@
 
 ## Demo requirements if you want to run it locally
 
-`git clone https://github.com/fredboudon/fspm2020.git`
 
 ### Install with pip - inside conda env
 
@@ -33,37 +32,73 @@ docker run --rm \
     jupyter lab
 ```
 
-## Introduction - Fred
+## Program
+
+### Introduction - Fred
 
 * What are notebooks? A web based environment for scientists: https://jupytercon.com
-* The Jupyter environment (notebooks, lab, hub)
+* The Jupyter environment (notebooks, lab, hub) and ecosystem
+* Pedagogical environment for academics
+* Reproducible env
 * Integrating FSPM
 * Question of Interactivity
 * Parameter edition
 * General Interests
-* Pedagogical environment for academics
-* Reproducible env
-
-### Examples
-
-* Integration [@nbviewer](https://nbviewer.jupyter.org/github/fredboudon/fspm2020/blob/master/examples/Integration.ipynb)
-
-* RPy [@nbviewer](https://nbviewer.jupyter.org/github/fredboudon/fspm2020/blob/master/examples/RPy.ipynb)
-
-* Parameter Edition [@nbviewer](https://nbviewer.jupyter.org/github/fredboudon/fspm2020/blob/master/examples/parameters/ParameterEdition.ipynb)
 
 
-## Walkthrough plantgl-jupyter - Jan
-* where do I find the project?
+#### Examples
+
+* Integration [@nbviewer](https://nbviewer.jupyter.org/github/fredboudon/fspm2020/blob/master/examples/Integration.ipynb) [@binder](https://mybinder.org/v2/gh/fredboudon/fspm2020/blob/master/examples/Integration.ipynb/master)
+
+* RPy [@nbviewer](https://nbviewer.jupyter.org/github/fredboudon/fspm2020/blob/master/examples/RPy.ipynb) [@binder](https://mybinder.org/v2/gh/fredboudon/fspm2020/blob/master/examples/RPy.ipynb/master)
+
+* Parameter Edition [@nbviewer](https://nbviewer.jupyter.org/github/fredboudon/fspm2020/blob/master/examples/parameters/ParameterEdition.ipynb) [@binder](https://mybinder.org/v2/gh/fredboudon/fspm2020/blob/master/examples/parameters/ParameterEdition.ipynb/master)
+
+If you run the demo locally, you should type in your conda shell
+```
+git clone https://github.com/fredboudon/fspm2020.git
+cd fspm2020/examples
+jupyter notebook .
+```
+You can select the different ipynb files of the demo.
+
+### Walkthrough plantgl-jupyter - Jan
+* where do I find the project? https://github.com/jvail/plantgl-jupyter
 * what types of widgets are there?
 * what is the api, options?
 * ecosystem: binder, nbviewer
 * where can I create feature requests, report bugs? - browse repository documentation?
 
-## Application on a complex examples - Fred
+#### Examples
 
-* The vmango model
+To run the demo locally
+```
+git clone https://github.com/jvail/plantgl-jupyter.git
+cd examples
+jupyter lab .
+```
 
-## Reproducibility and computational illustration - Christophe
 
-* The hydroshoot model
+### Application on a complex examples - Fred
+
+* The vmango model : https://github.com/fredboudon/vmango/tree/fspm2020
+* Mix of stochastic architectural development with mecanistic fruit growth models
+
+#### Examples
+* vmango [@nbviewer](https://nbviewer.jupyter.org/github/fredboudon/vmango/blob/fspm2020/notebooks/vmango.ipynb) 
+* vmango ochard [@nbviewer](https://nbviewer.jupyter.org/github/fredboudon/vmango/blob/fspm2020/notebooks/vmango_2.ipynb)
+
+To run the demo locally
+```
+git clone https://github.com/fredboudon/vmango.git
+git checkout fspm2020
+cd notebooks
+jupyter lab .
+```
+
+
+### Gallery of OpenAlea notebooks from published articles - Christophe
+
+* The OpenAlea Read The Docs website : https://openalea.readthedocs.io/en/latest/tutorials/index.html
+* The hydroshoot model [@nbviewer](https://nbviewer.jupyter.org/github/openalea/openalea.rtfd.io/blob/master/example/hydroshoot_grapevine.ipynb)
+
