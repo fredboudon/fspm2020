@@ -81,7 +81,7 @@ jupyter lab .
 ```
 
 
-### Application on a complex examples - Fred
+### Application on a complex example - Fred
 
 * The vmango model : https://github.com/fredboudon/vmango/tree/fspm2020
 * Mix of stochastic architectural development with mecanistic fruit growth models
