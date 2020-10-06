@@ -1,29 +1,69 @@
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fredboudon/fspm2020.git/master)
-
 # fspm2020
 
 
+## Demo requirements if you want to run it locally
 
-## misc demos
+`git clone https://github.com/fredboudon/fspm2020.git`
 
-### lpy widgets
+### Install with pip - inside conda env
 
-[lpy tree model - leuwenberg](https://mybinder.org/v2/gh/jvail/plantgl-jupyter/master?urlpath=lab/tree/examples/lpy/leuwenberg/leuwenberg.ipynb)
+Prepare conda environment: https://docs.conda.io/en/latest/miniconda.html
 
-[editing curves dynamically - dynamicprofile](https://mybinder.org/v2/gh/jvail/plantgl-jupyter/master?urlpath=lab/tree/examples/lpy/dynamicprofile/dynamicprofile.ipynb)
+```bash
+conda create -y -n pgl -c fredboudon -c conda-forge python=3.7 \
+    openalea.lpy jupyterlab ipywidgets ipython=7 matplotlib rpy2 toml nodejs
+```
 
-### lpy cell magic
+Install and activate jupyter extension
 
-[inlined lpy code in notebook - champignon](https://mybinder.org/v2/gh/jvail/plantgl-jupyter/master?urlpath=lab/tree/examples/magic_champignon.ipynb)
+```bash
+conda activate pgl
+pip install pgljupyter
+jupyter labextension install --no-build @jupyter-widgets/jupyterlab-manager
+jupyter lab build && jupyter lab
+```
 
-### plantgl scene widgets
+### Docker
 
-[render arbitrary plantgl shapes - spheres](https://mybinder.org/v2/gh/jvail/plantgl-jupyter/master?urlpath=lab/tree/examples/spheres.ipynb)
+```
+docker pull jvail/plantgl-jupyter:0.1.21
+docker run --rm \
+    -p 8888:8888 \
+    -v $PWD/examples:/home/jovyan/work jvail/plantgl-jupyter:0.1.21 \
+    jupyter lab
+```
 
-[combine Lsystem and plantgl scene - simple_growth](https://mybinder.org/v2/gh/jvail/plantgl-jupyter/master?urlpath=lab/tree/examples/lpy/simple_growth/simple_growth.ipynb)
+## Introduction - Fred
 
-### nbviewer example
+* What are notebooks? A web based environment for scientists: https://jupytercon.com
+* The Jupyter environment (notebooks, lab, hub)
+* Integrating FSPM
+* Question of Interactivity
+* Parameter edition
+* General Interests
+* Pedagogical environment for academics
+* Reproducible env
 
-[nbviewer - champignon](https://nbviewer.jupyter.org/github/jvail/plantgl-jupyter/blob/master/examples/magic_champignon.ipynb)
+### Examples
 
-[nbviewer - spheres](https://nbviewer.jupyter.org/github/jvail/plantgl-jupyter/blob/master/examples/spheres.ipynb)
+* Integration [@nbviewer](https://nbviewer.jupyter.org/github/fredboudon/fspm2020/blob/master/examples/Integration.ipynb)
+
+* RPy [@nbviewer](https://nbviewer.jupyter.org/github/fredboudon/fspm2020/blob/master/examples/RPy.ipynb)
+
+* Parameter Edition [@nbviewer](https://nbviewer.jupyter.org/github/fredboudon/fspm2020/blob/master/examples/parameters/ParameterEdition.ipynb)
+
+
+## Walkthrough plantgl-jupyter - Jan
+* where do I find the project?
+* what types of widgets are there?
+* what is the api, options?
+* ecosystem: binder, nbviewer
+* where can I create feature requests, report bugs? - browse repository documentation?
+
+## Application on a complex examples - Fred
+
+* The vmango model
+
+## Reproducibility and computational illustration - Christophe
+
+* The hydroshoot model
