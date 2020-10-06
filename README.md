@@ -48,11 +48,11 @@ docker run --rm \
 
 #### Examples
 
-* Integration [@nbviewer](https://nbviewer.jupyter.org/github/fredboudon/fspm2020/blob/master/examples/Integration.ipynb) [@binder](https://mybinder.org/v2/gh/fredboudon/fspm2020.git/master?filepath=examples%2FIntegration.ipynb)
+* Integration [![NBViewer](https://img.shields.io/badge/render-nbviewer-orange.svg)](https://nbviewer.jupyter.org/github/fredboudon/fspm2020/blob/master/examples/Integration.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fredboudon/fspm2020.git/master?filepath=examples%2FIntegration.ipynb)
 
-* RPy [@nbviewer](https://nbviewer.jupyter.org/github/fredboudon/fspm2020/blob/master/examples/RPy.ipynb) [@binder](https://mybinder.org/v2/gh/fredboudon/fspm2020.git/master?filepath=examples%2FRPy.ipynb)
+* RPy [![NBViewer](https://img.shields.io/badge/render-nbviewer-orange.svg)](https://nbviewer.jupyter.org/github/fredboudon/fspm2020/blob/master/examples/RPy.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fredboudon/fspm2020.git/master?filepath=examples%2FRPy.ipynb)
 
-* Parameter Edition [@nbviewer](https://nbviewer.jupyter.org/github/fredboudon/fspm2020/blob/master/examples/parameters/ParameterEdition.ipynb) [@binder](https://mybinder.org/v2/gh/fredboudon/fspm2020.git/master?filepath=examples%2Fparameters%2FParameterEdition.ipynb)
+* Parameter Edition [![NBViewer](https://img.shields.io/badge/render-nbviewer-orange.svg)](https://nbviewer.jupyter.org/github/fredboudon/fspm2020/blob/master/examples/parameters/ParameterEdition.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fredboudon/fspm2020.git/master?filepath=examples%2Fparameters%2FParameterEdition.ipynb)
 
 If you run the demo locally, you should type in your conda shell
 ```
@@ -85,8 +85,8 @@ jupyter lab .
 * Mix of stochastic architectural development with mecanistic fruit growth models
 
 #### Examples
-* vmango [@nbviewer](https://nbviewer.jupyter.org/github/fredboudon/vmango/blob/fspm2020/notebooks/vmango.ipynb) 
-* vmango ochard [@nbviewer](https://nbviewer.jupyter.org/github/fredboudon/vmango/blob/fspm2020/notebooks/vmango_2.ipynb)
+* vmango  [![NBViewer](https://img.shields.io/badge/render-nbviewer-orange.svg)](https://nbviewer.jupyter.org/github/fredboudon/vmango/blob/fspm2020/notebooks/vmango.ipynb) 
+* vmango ochard  [![NBViewer](https://img.shields.io/badge/render-nbviewer-orange.svg)](https://nbviewer.jupyter.org/github/fredboudon/vmango/blob/fspm2020/notebooks/vmango_2.ipynb)
 
 To run the demo locally
 ```
@@ -100,5 +100,5 @@ jupyter lab .
 ### Gallery of OpenAlea notebooks from published articles - Christophe
 
 * The OpenAlea Read The Docs website : https://openalea.readthedocs.io/en/latest/tutorials/index.html
-* The hydroshoot model [@nbviewer](https://nbviewer.jupyter.org/github/openalea/openalea.rtfd.io/blob/master/example/hydroshoot_grapevine.ipynb)
+* The hydroshoot model  [![NBViewer](https://img.shields.io/badge/render-nbviewer-orange.svg)](https://nbviewer.jupyter.org/github/openalea/openalea.rtfd.io/blob/master/example/hydroshoot_grapevine.ipynb)
 
