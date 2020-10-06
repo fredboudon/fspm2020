@@ -1,4 +1,4 @@
-# fspm2020
+# FSPM 2020 Demo session on virtual modelling environments
 
 
 ## Demo requirements if you want to run it locally
