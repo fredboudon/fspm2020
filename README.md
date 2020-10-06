@@ -48,11 +48,11 @@ docker run --rm \
 
 #### Examples
 
-* Integration [@nbviewer](https://nbviewer.jupyter.org/github/fredboudon/fspm2020/blob/master/examples/Integration.ipynb) [@binder](https://mybinder.org/v2/gh/fredboudon/fspm2020/blob/master/examples/Integration.ipynb/master)
+* Integration [@nbviewer](https://nbviewer.jupyter.org/github/fredboudon/fspm2020/blob/master/examples/Integration.ipynb) [@binder](https://mybinder.org/v2/gh/https%3A%2F%2Fmybinder.org%2Fv2%2Fgh%2Ffredboudon%2Ffspm2020/master?filepath=examples%2FIntegration.ipynb)
 
-* RPy [@nbviewer](https://nbviewer.jupyter.org/github/fredboudon/fspm2020/blob/master/examples/RPy.ipynb) [@binder](https://mybinder.org/v2/gh/fredboudon/fspm2020/blob/master/examples/RPy.ipynb/master)
+* RPy [@nbviewer](https://nbviewer.jupyter.org/github/fredboudon/fspm2020/blob/master/examples/RPy.ipynb) [@binder](https://mybinder.org/v2/gh/https%3A%2F%2Fmybinder.org%2Fv2%2Fgh%2Ffredboudon%2Ffspm2020/master?filepath=examples%2FRPy.ipynb)
 
-* Parameter Edition [@nbviewer](https://nbviewer.jupyter.org/github/fredboudon/fspm2020/blob/master/examples/parameters/ParameterEdition.ipynb) [@binder](https://mybinder.org/v2/gh/fredboudon/fspm2020/blob/master/examples/parameters/ParameterEdition.ipynb/master)
+* Parameter Edition [@nbviewer](https://nbviewer.jupyter.org/github/fredboudon/fspm2020/blob/master/examples/parameters/ParameterEdition.ipynb) [@binder](https://mybinder.org/v2/gh/https%3A%2F%2Fmybinder.org%2Fv2%2Fgh%2Ffredboudon%2Ffspm2020/master?filepath=examples%2Fparameters%2FParameterEdition.ipynb)
 
 If you run the demo locally, you should type in your conda shell
 ```
