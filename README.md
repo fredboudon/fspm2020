@@ -97,6 +97,7 @@ To run the demo locally
 ```
 git clone https://github.com/fredboudon/vmango.git
 git checkout fspm2020
+python setup.py install
 cd notebooks
 jupyter lab .
 ```
