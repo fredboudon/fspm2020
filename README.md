@@ -91,7 +91,7 @@ jupyter lab .
 * vmango  [![NBViewer](https://img.shields.io/badge/render-nbviewer-orange.svg)](https://nbviewer.jupyter.org/github/fredboudon/vmango/blob/fspm2020/notebooks/vmango.ipynb)
 * vmango ochard  [![NBViewer](https://img.shields.io/badge/render-nbviewer-orange.svg)](https://nbviewer.jupyter.org/github/fredboudon/vmango/blob/fspm2020/notebooks/vmango_2.ipynb)
 
-Binder version (experimental) : [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fredboudon/vmango.git/fspm2020?urlpath=lab/tree/notebooks)	
+Binder version (slow) : [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fredboudon/vmango.git/fspm2020?urlpath=lab/tree/notebooks)	
 
 To run the demo locally
 ```
