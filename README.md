@@ -65,11 +65,12 @@ jupyter notebook .
 You can select the different ipynb files of the demo.
 
 ### Walkthrough plantgl-jupyter - Jan
-* where do I find the project? https://github.com/jvail/plantgl-jupyter
-* what types of widgets are there?
-* what is the api, options?
-* ecosystem: binder, nbviewer
-* where can I create feature requests, report bugs? - browse repository documentation?
+
+* where do I find the project: https://github.com/jvail/plantgl-jupyter
+* features, widgets
+* api, options
+* ecosystem: binder, nbviewer, cloud (e.g. ifb biosphere), vscode
+* documentation, request features, report bugs
 
 #### Examples
 
@@ -86,16 +87,17 @@ jupyter lab .
 * The vmango model : https://github.com/fredboudon/vmango/tree/fspm2020
 * Mix of stochastic architectural development with mecanistic fruit growth models
 
-#### Examples 
-* vmango  [![NBViewer](https://img.shields.io/badge/render-nbviewer-orange.svg)](https://nbviewer.jupyter.org/github/fredboudon/vmango/blob/fspm2020/notebooks/vmango.ipynb) 
+#### Examples
+* vmango  [![NBViewer](https://img.shields.io/badge/render-nbviewer-orange.svg)](https://nbviewer.jupyter.org/github/fredboudon/vmango/blob/fspm2020/notebooks/vmango.ipynb)
 * vmango ochard  [![NBViewer](https://img.shields.io/badge/render-nbviewer-orange.svg)](https://nbviewer.jupyter.org/github/fredboudon/vmango/blob/fspm2020/notebooks/vmango_2.ipynb)
 
-Binder version (very slow to start) : [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fredboudon/vmango.git/fspm2020?urlpath=lab/tree/notebooks)
+Binder version (slow) : [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fredboudon/vmango.git/fspm2020?urlpath=lab/tree/notebooks)	
 
 To run the demo locally
 ```
 git clone https://github.com/fredboudon/vmango.git
 git checkout fspm2020
+python setup.py install
 cd notebooks
 jupyter lab .
 ```
@@ -105,4 +107,3 @@ jupyter lab .
 
 * The OpenAlea Read The Docs website : https://openalea.readthedocs.io/en/latest/tutorials/index.html
 * The hydroshoot model  [![NBViewer](https://img.shields.io/badge/render-nbviewer-orange.svg)](https://nbviewer.jupyter.org/github/openalea/openalea.rtfd.io/blob/master/example/hydroshoot_grapevine.ipynb)
-
