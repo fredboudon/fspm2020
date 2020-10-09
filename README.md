@@ -107,3 +107,7 @@ jupyter lab .
 
 * The OpenAlea Read The Docs website : https://openalea.readthedocs.io/en/latest/tutorials/index.html
 * The hydroshoot model  [![NBViewer](https://img.shields.io/badge/render-nbviewer-orange.svg)](https://nbviewer.jupyter.org/github/openalea/openalea.rtfd.io/blob/master/example/hydroshoot_grapevine.ipynb)
+
+### Tribute to Tsu Wei
+
+* Broccoli [![NBViewer](https://img.shields.io/badge/render-nbviewer-orange.svg)](https://nbviewer.jupyter.org/github/fredboudon/fspm2020/blob/master/examples/Broccoli.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fredboudon/fspm2020.git/master?filepath=examples%2FBroccoli.ipynb)
